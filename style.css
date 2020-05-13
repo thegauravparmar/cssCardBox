@@ -38,7 +38,7 @@ body{
     padding: 20px;
 }
 
-.content h2
+.box .content h2
 {
     position: absolute;
     top: -60px;
@@ -48,4 +48,41 @@ body{
     color: rgba(255,255,255,0.05);
     font-size: 10em;
     transition: 0.5s;
+}
+.box:hover .content h2 
+{
+    top: -140px;
+}
+.box .content h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.box .content p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+}
+.box .content a
+{
+    position: relative;
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    transition: 0.5s;
+    color: white;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+}
+.box .content a
+{
+
 }
