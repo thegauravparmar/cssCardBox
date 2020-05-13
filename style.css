@@ -42,9 +42,21 @@ body{
     z-index: -1;
     transform: skew(2deg,2deg) ;
 }
-.container .boxnth-child(1):before
+.container .box:nth-child(1):before
 {
-    
+ background: linear-gradient(315deg,#ff0057,#e64a19);
+}
+.container .box:nth-child(2):before
+{
+ background: linear-gradient(315deg,#ff0057,#e64a19);
+}
+.container .box:nth-child(3):before
+{
+ background: linear-gradient(315deg,#ff0057,#e64a19);
+}
+.container .box:nth-child(4):before
+{
+ background: linear-gradient(315deg,#ff0057,#e64a19);
 }
 .content
 {
